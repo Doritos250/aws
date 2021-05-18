@@ -346,6 +346,18 @@
                 "AssumeRoleWithWebIdentity",
                 "GetCallerIdentity"
             ]
+        },
+        "Kinesis": {
+            "source": "https://raw.githubusercontent.com/aws/aws-sdk-php/${LATEST}/src/data/kinesis/2013-12-02/api-2.json",
+            "documentation": "https://raw.githubusercontent.com/aws/aws-sdk-php/${LATEST}/src/data/kinesis/2013-12-02/docs-2.json",
+            "pagination": "https://raw.githubusercontent.com/aws/aws-sdk-php/${LATEST}/src/data/kinesis/2013-12-02/paginators-1.json",
+            "waiter": "https://raw.githubusercontent.com/aws/aws-sdk-php/${LATEST}/src/data/kinesis/2013-12-02/waiters-2.json",
+            "example": "https://raw.githubusercontent.com/aws/aws-sdk-php/${LATEST}/src/data/kinesis/2013-12-02/examples-1.json",
+            "api-reference": "https://docs.aws.amazon.com/kinesis/latest/APIReference/Welcome.html",
+            "methods": [
+                "PutRecord",
+                "PutRecords"
+            ]
         }
     }
 }
